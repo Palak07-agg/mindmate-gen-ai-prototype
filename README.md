@@ -39,32 +39,6 @@ This project was built as a **prototype** for a Gen AI Hackathon challenge, focu
 - 🔒 **CORS enabled**
 - 📦 Mock APIs (no database)
 
----
-
-## 📂 Project Structure
-
-```
-
-mindmate\_gen\_ai/
-│
-├── backend/                # Express backend
-│   ├── server.js           # Main server file with mock APIs
-│   ├── package.json        # Backend dependencies
-│   └── ...
-│
-├── frontend/               # React frontend
-│   ├── public/             # index.html, static files
-│   ├── src/
-│   │   ├── index.js        # React entry
-│   │   ├── App.js          # Main routing
-│   │   ├── pages/          # Journal, Chatbot, MoodTracker, etc.
-│   │   ├── components/     # Reusable UI
-│   │   └── ...
-│   ├── package.json        # Frontend dependencies
-│   └── ...
-│
-└── README.md               # Project overview
-
 ````
 
 ---
