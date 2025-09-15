@@ -1,0 +1,65 @@
+/* Galaxy Gradient Background */
+.dashboard {
+  min-height: 100vh;
+  padding: 40px;
+  background: linear-gradient(135deg, #ff00cc, #333399);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+/* Welcome Card */
+.welcome-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+}
+
+.welcome-card h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.brand {
+  color: #ff99ff;
+  font-weight: bold;
+}
+
+.welcome-card p {
+  font-size: 1.2rem;
+  color: #f0e6ff;
+}
+
+/* Features Section */
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.feature-card {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.feature-card h2 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  color: #ffe6ff;
+}
+
+.feature-card p {
+  font-size: 1rem;
+  color: #f3f3f3;
+}
